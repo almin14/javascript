@@ -4,10 +4,11 @@ $(document).ready(function(){
 	$.ajax({
 		url:"page.php",
 		type:"POST",
-		success:function(){
+		success:function(res){
+			console.log(res);
 			$("p").text("Hello world!");
 			console.log("hii");
 		}
 	});
-	},60000);
+	},2000);
 });
