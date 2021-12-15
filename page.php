@@ -1,0 +1,7 @@
+<html>
+	<script type="text/javascript" src="jquery-3.6.0.js"></script>
+	<script type="text/javascript" src="js.js"></script>
+	<p></p>
+</html>
+<?php
+?>
